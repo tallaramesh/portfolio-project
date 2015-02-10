@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'OpenSans-CondLight';
+  /*src: url('../fonts/glyphicons-halflings-regular.eot'); */
+  src: url('../fonts/OpenSans-CondLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Exo ExtraBold';
+  /*src: url('../fonts/glyphicons-halflings-regular.eot'); */
+  src: url('../fonts/Exo-ExtraBold.otf') format('opentype');
+}
+/* commom css */
+html, body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height: 100%;
+}
+a, a:hover, a:focus{
+    text-decoration: none;
+	outline: none !important;
+}
+img{
+    max-width: 100%;
+}
+/* end of commom css */
+
+/* page layout css */
+.main-content{
+    max-width: 1280px;
+    min-width: 320px;
+}
+.min-width{
+    min-width: 320px;
+}
+/* end of page layout css */
+
+/* Footer */ 
+.main-footer{
+	background: #bf4b4b;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 10px;
+	font-size: 22px;
+	font-family: "Gabriola";
+}
+/* end of Footer */
+
+/* home page css */
+.main-content, .home-main-wrapper, .home-row{
+    height: 100%
+}
+.home-main-wrapper{
+    background: #3a4865;
+    height: 100%;
+}
+.header-top{
+    height: 10%;
+}
+.ramesh{
+    font-family: "OpenSans-CondLight";
+    color: #FFFFFF;
+}
+.ramesh h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.ramesh h4{
+    font-size: 30px;
+    margin-top: 0px;
+}
+.home-social-media{
+    text-align: right;
+    margin-top: 53px;
+}
+.main-menu{
+    margin: 13% auto 0px;
+    float: none;
+    display: table;
+}
+.main-menu a{
+    color: #FFFFFF;
+}
+.menu2, .about-me, .my-work, .skills, .contact-us{
+    width: 50%;
+    float: left
+}
+.about-me, .my-work, .skills, .contact-us{
+    height: 220px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10%;
+    font-family: "Gabriola";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.about-me{
+    background: #fcae39;
+}
+.my-work{
+    background: #428e9e;
+}
+.skills{
+    background: #ce4343;
+}
+.contact-us{
+    background: #398137;
+}
+/* end of home page css */
+
+/* sub menu */
+.page-menu{
+	height: 100px;
+	background: #3A4865;
+}
+/* end of sub menu */
+
+
+/* About page */
+.page-header{
+	font-family: Exo ExtraBold;
+	border-bottom: 0px;
+	text-align: center;
+}
+.title{
+	font-family: Exo ExtraBold;
+	font-style:italic;
+	font-size: 30px;
+}
+.about-content{
+	/* background: #FBD16F; */
+	background: #FFFFFF;
+}
+p{
+	font-family: "Gabriola";
+	font-size: 30px;
+	line-height: 51px;}	
+	
+/* End of About pagecss */
+
+
+/* Projects Page */
+.project-content{
+	/* background: #428E9E; */
+	background: #3A4865;
+	color: #FFFFFF;}
+
+/* End of Projects page */
